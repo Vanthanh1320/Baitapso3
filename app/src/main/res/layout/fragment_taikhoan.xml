@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f1f0f6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/khungtieude_440"
+        android:background="#fff">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageavata_440"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/avatar">
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/ten_440"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Văn Thành"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khách hàng mới"
+            android:layout_below="@id/ten_440"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+    </RelativeLayout>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:src="@drawable/dau"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_thecoffee_440"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/khungtieude_440"
+        android:text="The Coffee House Rewards"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:drawablePadding="20dp"
+        android:drawableLeft="@drawable/ic_baseline_stars_24"
+        android:background="#fff"/>
+    <TextView
+        android:id="@+id/tv_tttaikhoan_440"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_thecoffee_440"
+        android:text="Thông tin tài khoản"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:paddingLeft="20dp"
+        android:drawablePadding="20dp"
+        android:drawableLeft="@drawable/ic_baseline_perm_identity_24"
+        android:background="#fff"/>
+    <TextView
+        android:id="@+id/tv_nhac_440"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_tttaikhoan_440"
+        android:text="Nhạc đang phát"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:paddingLeft="20dp"
+        android:drawablePadding="20dp"
+        android:drawableLeft="@drawable/ic_baseline_queue_music_24"
+        android:background="#fff"/>
+    <TextView
+        android:id="@+id/tv_lichsu_440"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_nhac_440"
+        android:text="Lịch sử"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:paddingLeft="20dp"
+        android:drawablePadding="20dp"
+        android:drawableLeft="@drawable/ic_baseline_history_24"
+        android:background="#fff"/>
+    <TextView
+        android:id="@+id/tv_giupdo_440"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_lichsu_440"
+        android:text="Giúp đỡ"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:paddingLeft="20dp"
+        android:drawablePadding="20dp"
+        android:drawableLeft="@drawable/ic_baseline_help_outline_24"
+        android:background="#fff"/>
+    <TextView
+        android:id="@+id/tv_caidat_440"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_giupdo_440"
+        android:text="Cài đặt"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:paddingLeft="20dp"
+        android:drawablePadding="20dp"
+        android:drawableLeft="@drawable/ic_baseline_settings_24"
+        android:background="#fff"/>
+
+    <TextView
+        android:id="@+id/tv_dangxuat_440"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tv_caidat_440"
+        android:text="Đăng xuất"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:paddingLeft="20dp"
+        android:drawablePadding="20dp"
+       />
+
+
+
+</RelativeLayout>

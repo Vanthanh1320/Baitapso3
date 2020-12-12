@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2D1D7"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeThong_440"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/img_close_440"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_close_24" />
+
+        <TextView
+            android:id="@+id/txvThongbao_440"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Thông báo"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img_dialog_440"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_toRightOf="@id/txvThongbao_440"
+            android:src="@drawable/ic_baseline_format_list_bulleted_24" />
+    </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bạn không có thông báo nào"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:id="@+id/tv_440"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/relativeThong_440"/>
+
+        <Button
+            android:id="@+id/btn_back_440"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Quay lại thông báo"
+            android:textColor="#fff"
+            android:layout_below="@+id/tv_440"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:background="@drawable/et_btn2"/>
+
+
+</RelativeLayout>

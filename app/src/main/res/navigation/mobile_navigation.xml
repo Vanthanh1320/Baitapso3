@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_tintuc">
+
+    <fragment
+        android:id="@+id/navigation_tintuc"
+        android:name="com.example.thecoffehouse.fragment.TintucFragment"
+        android:label="Tin tức"
+        tools:layout="@layout/fragment_tintuc" />
+    <fragment
+        android:id="@+id/navigation_dathang"
+        android:name="com.example.thecoffehouse.fragment.DathangFragment"
+        android:label="Đặt hàng"
+        tools:layout="@layout/fragment_dathang" />
+    <fragment
+        android:id="@+id/navigation_cuahang"
+        android:name="com.example.thecoffehouse.fragment.CuahangFragment"
+        android:label="Của hàng"
+        tools:layout="@layout/fragment_cuahang" />
+    <fragment
+        android:id="@+id/navigation_taikhoan"
+        android:name="com.example.thecoffehouse.fragment.TaikhoanFragment"
+        android:label="Tài Khoản"
+        tools:layout="@layout/fragment_taikhoan" />
+</navigation>

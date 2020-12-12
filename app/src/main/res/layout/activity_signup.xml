@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.Login"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/khungnen" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#D2D1D7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="23dp"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:text="Chào bạn," />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:textColor="#1B1A1A"
+            android:text="Nhập số điện thoại để tiếp tục" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/quocgia"
+                android:layout_marginLeft="15dp"/>
+
+            <EditText
+                android:id="@+id/edt_sdt_440"
+                android:layout_marginLeft="30dp"
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:hint="Số điện thoại"
+                android:background="@drawable/et_bg"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textSize="15dp"
+                android:textColor="@color/gray"
+                />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_lg_440"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/et_btn2"
+                android:fontFamily="sans-serif-black"
+                android:text="Login"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/tvkhac_440"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hoặc đăng nhập bằng"
+                android:layout_below="@id/btn_lg_440"
+                android:layout_centerHorizontal="true"
+                android:textSize="18dp"
+                android:layout_marginTop="100dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvkhac_440"
+                android:id="@+id/dangnhapkhac_440">
+
+                <Button
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="Facebook"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#fff"
+                    android:background="@drawable/et_btn3"/>
+
+                <Button
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#fff"
+                    android:background="@drawable/et_btn2"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvbo_440"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bỏ qua"
+                android:padding="5dp"
+                android:textColor="#2196F3"
+                android:layout_below="@id/dangnhapkhac_440"
+                android:layout_centerHorizontal="true"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

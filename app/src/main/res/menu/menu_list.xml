@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_tintuc"
+        android:icon="@drawable/ic_baseline_article_24"
+        android:title="Tin tức" />
+
+    <item
+        android:id="@+id/navigation_dathang"
+        android:icon="@drawable/ic_baseline_electric_moped_24"
+        android:title="Đặt hàng" />
+    <item
+        android:id="@+id/navigation_cuahang"
+        android:icon="@drawable/ic_baseline_store_24"
+        android:title="Cửa hàng" />
+
+    <item
+        android:id="@+id/navigation_taikhoan"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Tài khoản" />
+</menu>

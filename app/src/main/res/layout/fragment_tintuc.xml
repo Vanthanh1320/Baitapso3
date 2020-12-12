@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f1f0f6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/khungtieude_440"
+        android:background="#fff"
+        android:layout_marginBottom="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageavata_440"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/avatar">
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/ten_440"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Văn Thành"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Khách hàng mới    |"
+                android:layout_below="@id/ten_440"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+               />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imv_tb_440"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_notifications_none_24"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/khungtieude_440">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rcv_tieude_440"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/tv_ud_440"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:drawableEnd="@drawable/ic_baseline_more_horiz_24"
+            android:layout_marginRight="15dp"
+            android:text="Ưu đãi đặc biệt"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rcv_uudai_440"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/tv_cn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:drawableEnd="@drawable/ic_baseline_more_horiz_24"
+                android:layout_marginRight="15dp"
+                android:text="Cập nhật từ nhà"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rcv_capnhat_440"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="10dp"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/tv_coffee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:drawableEnd="@drawable/ic_baseline_more_horiz_24"
+                android:layout_marginRight="15dp"
+                android:text="#CoffeeLover"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rcv_coffee_440"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="10dp"
+                android:padding="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nhạc đang phát tại Nhà"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:padding="5dp"/>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imagenhac_440"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ducphuc">
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:id="@+id/tennhac_440"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Ánh nắng của anh"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:padding="5dp"
+                                    android:textColor="#000"/>
+                                <TextView
+                                    android:id="@+id/casi_440"
+                                    android:textColor="@color/nen"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Đức Phúc"
+                                    android:layout_below="@id/tennhac_440"
+                                    android:layout_marginLeft="15dp"
+                                    />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Now playing"
+                                    android:textColor="#000"
+                                    android:drawableLeft="@drawable/ic_baseline_equalizer_24"
+                                    android:layout_below="@id/casi_440"
+                                    android:layout_marginLeft="15dp"
+                                    />
+
+                            </RelativeLayout>
+            </LinearLayout>
+
+         </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>
